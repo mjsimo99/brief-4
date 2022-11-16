@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000000;
+    color: white;
+
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+navbar-brand {
+    color: white
+}
+
+.form-inline {
+    margin-right: 35%;
+    margin-left: auto;
+    
+}
+.form-control{
+    width: 70%;
+    margin-right: 3%;
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-collapse{
+        display: flex;
+    }
+    .form-inline {
+        margin-right: 15%;
+    }
+    
+}
+/* _______________________________ */
+.club{
+    display:flex;
+    width:400px ;
+   padding: 10px;
+    border:1px solid rgb(62, 65, 249);
+    flex-direction: column;
+    border-radius: 5px;
+    background-color:rgb(226, 226, 255) ;
+    box-shadow: 0px 0px 10px rgb(192, 192, 255);
+    margin-top: 5%;
+}
+.header_card_club table{
+    /* border:1px solid black; */
+    width: 100%;
+}
+.header_card_club table td{
+    /* border:1px solid black; */
+    
+}
+.club_members
+{
+    /* border:1px solid black; */
+    text-align: end;
+    padding-top: 10px;
+}
+.club_members a{
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+}
+.logo_club_card
+{
+    width:130px;
+     height:50px;
+}
+.club_description a{
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.name_club a{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: blue;
+}
+.clubs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* ________ */
+.content{
+    font-family: 'Roboto', sans-serif;
+
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 6%;
+
+}
+
+.classes_groupe{
+    width: 50%;
+    font-size: 18.5px;
+
+
+}
+.classes{
+    width: 283px;
+    height: 198px;
+    x: 0;
+    y: 0;
+}
+.content-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+
+}
+.svg{
+    display: flex;
+    justify-content: center;
+}
+.svgX{
+    color: white;
+}
+footer {
+    margin-top: 5%;
+    padding: 3px;
+    bottom: 0; left: 0; right: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background: rgba(95, 88, 88, 0.6);
+
+}
+.title1{
+    font-weight: 700;
+}
+.title2{
+    font-weight: 700;
+    color: #058dfe;
+}
+.content2{
+    text-align: center;
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
